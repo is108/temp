@@ -1,0 +1,6 @@
+{% load static %}
+
+<h2>Файлы</h2>
+{% for file in files %}
+  {{ file.file.url }}
+{% endfor %}
